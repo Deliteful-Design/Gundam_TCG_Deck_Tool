@@ -37,7 +37,8 @@ Because storage is per-browser, the backup file is also how a visitor moves thei
 
 The card and deck data embedded in `index.html` is sourced, not invented. Coverage is incomplete, though:
 
-- Card database currently covers GD01, GD02, ST01–ST06, Beta, and Promos in full, plus a growing set of individually-verified cards from GD03/GD04.
+- Card database covers GD01, GD02, ST01–ST06, Beta, and Promos in full, ST11–ST14 and GD05 (stats only, no effect text), plus a handful of individually-verified GD03/GD04 cards. GD03, GD04, ST07–ST10 and EB01 are mostly missing; add them from the Backup & Custom tab.
+- The banned/restricted list and legality checker reflect the official list as of Sept 25, 2026. Always verify at gundam-gcg.com before registering a deck.
 - 4 of the current top-10 meta archetypes have fully verified 50-card decklists; the rest link out to live trackers.
 - Anything without a green "VERIFIED" tag should be treated as a lead to check, not gospel.
 
