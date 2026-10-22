@@ -28,20 +28,19 @@ This build saves to your browser's `localStorage`:
 
 ## Card coverage
 
-- **Full data (with effect text):** GD01, GD02, ST01-ST06, Beta, promos.
-- **Stats only (no effect text):** ST11-ST14 and GD05.
-- **Mostly missing:** GD03, GD04, ST07-ST10, EB01, and GD06 (Stardust Trails, releases Oct 30, 2026). Add them from the New Sets & Backup tab by pasting a card table.
+- **Full data with effect text:** GD01, GD02, GD03, ST01-ST10, EB01, Beta, promos.
+- **Stats only (no effect text):** GD04, GD05, ST11-ST14.
+- **Pre-release:** GD06 (Stardust Trails, releases Oct 30, 2026). These cards may change.
+- **Known gaps:** ST07-016, ST08-016, and ST09-011 to ST09-016 were not in the source files. Add any missing card or set from the New Sets & Backup tab.
 - Cards not in the database still show art when imported by ID, and are marked "NOT IN DB".
 
 ## Rules and legality
 
 The legality checker uses the official banned/restricted list as of **Sept 25, 2026**: Anksha banned, Corsica Base limited to 2, Amuro Ray + Mikazuki Augus and Guntank + M1 Astray Shrike banned together, at most one of a group of low-cost vanilla Units, 4 copies per card number, 50-card main deck, 10-card resource deck, and 2 colors maximum. The vanilla Unit group was copied from a summary and may be incomplete. **Always confirm on [gundam-gcg.com](https://www.gundam-gcg.com) before registering a deck.**
 
-## Sources
+## Sources and credit
 
-- Meta ranking and decklists: [ExBurst](https://exburst.dev/gundam/tournaments/meta), a fan-run tournament tracker (200 events, 1,905 decklists, Jul 22 - Oct 20, 2026).
-- Early card data: [apitcg/gundam-tcg-data](https://github.com/apitcg/gundam-tcg-data); ST11-ST14 and GD05 stats from public card-list sites.
-- Rules and ban list: [gundam-gcg.com](https://www.gundam-gcg.com).
+Full credits, with links, are in [SOURCES.md](SOURCES.md) and in the footer of the app. In short: card data from [TCGCSV](https://tcgcsv.com) (TCGplayer catalog data), [apitcg/gundam-tcg-data](https://github.com/apitcg/gundam-tcg-data), [Gundam Card List](https://gundamcardlist.com) and [Gamertag Mythras](https://gamertagmythras.com); meta data and decklists from [ExBurst](https://exburst.dev); rules, ban list and card images from [Bandai's official site](https://www.gundam-gcg.com).
 
 ## Disclaimer
 
