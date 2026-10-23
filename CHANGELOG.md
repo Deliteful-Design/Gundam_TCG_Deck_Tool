@@ -3,6 +3,11 @@
 Keep this file in the repo. Commit after every update so GitHub's history lets you go back to any earlier version.
 
 ## Latest
+- Mobile layout pass 1: tabs wrap into a 3-column grid instead of scrolling sideways, fixed the white strip from page overflow, single-column deck cards, larger tap targets, and 16px inputs so iPhones do not zoom on focus.
+- My Collection can import a CSV or Excel collection export (tested design: ExBurst columns Card No / Owned). Choose to keep the higher count, add, or replace; alternate arts count toward the main card.
+- Correction: ST07 to ST09 are smaller than 16 cards, so ST07-016, ST08-016 and ST09-011 to ST09-016 do not exist. They were wrongly listed as missing; all starter-deck cards in the source files are loaded.
+- Confirmed 78 Units (GD03 to GD06, EB01, ST07 to ST13) have no effect text, so their popups now say "No effect text" instead of "not loaded yet". The 10 Unit Tokens are still unchecked.
+- Added effect text and traits for GD04, GD05 and ST11-ST14 from TCGCSV files, filled promo gaps, merged duplicate and alternate-art entries (one entry per card number), and grouped EX Base, EX Resource, Resource and Token cards in the set dropdown. The importer now recognizes EXB-, EXBP-, EXR-, EXRP-, R-, RP- and T- codes.
 - Added GD03, EB01, ST07-ST10 and GD06 (pre-release) with full effect text from TCGCSV files. Added credits to the app footer and a SOURCES.md file.
 - Added all Phantom Aria (GD04) cards (stats only). Card list now loads 60 at a time with a Show more button, which fixes scroll lag.
 - Removed the game counts from the Match Log and New Sets & Backup tabs.
